@@ -1,0 +1,150 @@
+.app__homeScreenProfile-container {
+   @media screen and(max-width:950px) {
+      display: none;
+   }
+
+   width: 293px;
+   padding-top: 20px;
+}
+
+.app__homeScreenProfile-profile {
+   margin-top: 20px;
+   width: 100%;
+   height: 56px;
+   margin-right: 4px;
+   justify-content: space-between;
+
+   .app__homeScreenProfile-profile-img {
+      font-size: 3.6rem;
+      margin-right: 15px;
+
+      &:hover {
+         cursor: pointer;
+      }
+   }
+}
+
+.app__homeScreenProfile-profile-name {
+   flex-direction: column;
+   align-items: flex-start;
+
+   height: 100%;
+
+   p {
+      font-family: var(--font-base);
+      font-size: 0.9rem;
+   }
+}
+
+.app__homeScreenProfile-profile-logout {
+   flex: 1;
+   justify-content: flex-end;
+
+   button {
+      border: none;
+      background-color: var(--secondary-white);
+
+      &:hover {
+         cursor: pointer;
+      }
+
+      p {
+         color: var(--blue-color);
+         font-family: var(--font-base);
+         font-weight: 700;
+      }
+   }
+}
+
+.app__homeScreenProfile-suggestions {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   padding-top: 23px;
+
+   .app__homeScreenProfile-suggestions-header {
+      justify-content: space-between;
+      width: 100%;
+
+      p {
+         font-family: var(--font-base);
+         font-size: 0.8rem;
+      }
+   }
+
+   .app__homeScreenProfile-suggestions-list {
+      padding-top: 15px;
+
+      .app__homeScreenProfile-suggestions-list-item {
+         justify-content: space-between;
+         margin-bottom: 10px;
+
+         .app__homeScreenProfile-suggestions-list-item-img {
+            cursor: pointer;
+            margin-right: 10px;
+
+            svg {
+               font-size: 2.1rem;
+            }
+         }
+
+         .app__homeScreenProfile-suggestions-list-item-name {
+            p {
+               font-family: var(--font-base);
+               font-size: 0.8rem;
+            }
+         }
+
+         .app__homeScreenProfile-suggestions-list-item-btn {
+            flex: 1;
+            justify-content: flex-end;
+
+            button {
+               border: none;
+               background-color: var(--secondary-white);
+
+               p {
+                  color: var(--blue-color);
+                  font-family: var(--font-base);
+                  font-weight: 500;
+               }
+               &:hover {
+                  cursor: pointer;
+               }
+            }
+         }
+      }
+   }
+}
+
+.bold {
+   font-weight: 500;
+}
+
+.app__homeScreenProfile-footer {
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   padding-top: 23px;
+
+   .app__homeScreenProfile-footer-item {
+      margin-right: 5px;
+      cursor: pointer;
+      margin-bottom: 5px;
+
+      p {
+         font-family: var(--font-base);
+         font-size: 0.72rem;
+         color: #ccc;
+      }
+   }
+
+   .app__homeScreenProfile-footer-copyright {
+      margin-top: 18px;
+
+      p {
+         font-family: var(--font-base);
+         font-size: 0.72rem;
+         color: #ccc;
+      }
+   }
+}

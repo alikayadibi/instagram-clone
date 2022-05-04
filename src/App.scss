@@ -1,0 +1,24 @@
+.App {
+   position: relative;
+}
+
+.app__flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.app__app-main-container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 0 auto;
+}
+
+.app__app-main-grid {
+   background-color: var(--secondary-white);
+   width: 935px;
+   display: flex;
+   padding-top: 15px;
+}
