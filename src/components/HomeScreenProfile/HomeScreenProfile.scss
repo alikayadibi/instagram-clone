@@ -1,10 +1,21 @@
+.app__homeScreenProfile-fixed {
+   width: 293px;
+   padding-top: 20px;
+   position: relative;
+
+   @media screen and(max-width:950px) {
+      display: none;
+   }
+}
 .app__homeScreenProfile-container {
    @media screen and(max-width:950px) {
       display: none;
    }
 
-   width: 293px;
-   padding-top: 20px;
+   width: 100%;
+   position: sticky;
+   top: 113px;
+   // padding-top: 20px;
 }
 
 .app__homeScreenProfile-profile {

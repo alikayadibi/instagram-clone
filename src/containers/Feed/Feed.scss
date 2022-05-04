@@ -1,4 +1,12 @@
 .app__feed-container {
    width: 614px;
    margin-right: 28px;
+
+   @media screen and(max-width:950px) {
+      margin-right: 0;
+   }
+
+   @media screen and(max-width:450px) {
+      width: 100vw;
+   }
 }

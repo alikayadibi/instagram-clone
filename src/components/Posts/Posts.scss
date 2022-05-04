@@ -1,0 +1,7 @@
+.app__posts-container {
+   width: 612px;
+
+   @media screen and(max-width:450px) {
+      width: 100vw;
+   }
+}

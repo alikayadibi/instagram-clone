@@ -20,5 +20,10 @@
    background-color: var(--secondary-white);
    width: 935px;
    display: flex;
+   justify-content: center;
    padding-top: 15px;
+
+   @media screen and(max-width:450px) {
+      padding-top: 0;
+   }
 }

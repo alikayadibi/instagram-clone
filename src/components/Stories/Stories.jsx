@@ -29,7 +29,9 @@ const Stories = () => {
          <div className="app__stories app__flex">
             {storyNames.map((name, i) => (
                <div key={i} className="app__stories-item app__flex">
-                  <img src="https://picsum.photos/56" alt="profile-pic" />
+                  <div className="app__stories-item-img app__flex">
+                     <img src="https://picsum.photos/50" alt="profile-pic" />
+                  </div>
                   <p className="text-gray">
                      {name.length <= 10 ? name : `${name.slice(0, 9)}...`}
                   </p>
